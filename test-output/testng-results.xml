@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-12T15:25:01 IST" name="Default suite" finished-at="2024-07-12T15:25:07 IST" duration-ms="6385">
+  <suite started-at="2024-07-14T15:30:02 IST" name="Default suite" finished-at="2024-07-14T15:30:06 IST" duration-ms="4187">
     <groups>
     </groups>
-    <test started-at="2024-07-12T15:25:01 IST" name="Default test" finished-at="2024-07-12T15:25:07 IST" duration-ms="6385">
-      <class name="com.qa.REST.api.BodyDataCreation">
-        <test-method signature="BodyDataCreateusingExternalFile()[pri:1, instance:com.qa.REST.api.BodyDataCreation@1e6454ec]" started-at="2024-07-12T15:25:01 IST" name="BodyDataCreateusingExternalFile" finished-at="2024-07-12T15:25:07 IST" duration-ms="6298" status="PASS">
+    <test started-at="2024-07-14T15:30:02 IST" name="Default test" finished-at="2024-07-14T15:30:06 IST" duration-ms="4187">
+      <class name="com.qa.REST.api.GetCookies">
+        <test-method signature="get_Multiple_Headers()[pri:4, instance:com.qa.REST.api.GetCookies@4e096385]" started-at="2024-07-14T15:30:02 IST" name="get_Multiple_Headers" finished-at="2024-07-14T15:30:06 IST" duration-ms="4101" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BodyDataCreateusingExternalFile -->
-      </class> <!-- com.qa.REST.api.BodyDataCreation -->
+        </test-method> <!-- get_Multiple_Headers -->
+      </class> <!-- com.qa.REST.api.GetCookies -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

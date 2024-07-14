@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.REST.api.BodyDataCreation">
+      <class name="com.qa.REST.api.GetCookies">
         <methods>
-          <include name="BodyDataCreateusingExternalFile"/>
+          <include name="Get_Multiple_Cookies"/>
         </methods>
-      </class> <!-- com.qa.REST.api.BodyDataCreation -->
+      </class> <!-- com.qa.REST.api.GetCookies -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
