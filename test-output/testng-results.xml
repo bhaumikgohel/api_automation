@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-14T15:30:02 IST" name="Default suite" finished-at="2024-07-14T15:30:06 IST" duration-ms="4187">
+  <suite started-at="2024-07-18T18:08:51 IST" name="Default suite" finished-at="2024-07-18T18:08:54 IST" duration-ms="2273">
     <groups>
     </groups>
-    <test started-at="2024-07-14T15:30:02 IST" name="Default test" finished-at="2024-07-14T15:30:06 IST" duration-ms="4187">
-      <class name="com.qa.REST.api.GetCookies">
-        <test-method signature="get_Multiple_Headers()[pri:4, instance:com.qa.REST.api.GetCookies@4e096385]" started-at="2024-07-14T15:30:02 IST" name="get_Multiple_Headers" finished-at="2024-07-14T15:30:06 IST" duration-ms="4101" status="PASS">
+    <test started-at="2024-07-18T18:08:51 IST" name="Default test" finished-at="2024-07-18T18:08:54 IST" duration-ms="2273">
+      <class name="Validation.ValidateResponse">
+        <test-method signature="Validate_Firstnames()[pri:3, instance:Validation.ValidateResponse@b62d79]" started-at="2024-07-18T18:08:51 IST" name="Validate_Firstnames" finished-at="2024-07-18T18:08:54 IST" duration-ms="2221" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_Multiple_Headers -->
-      </class> <!-- com.qa.REST.api.GetCookies -->
+        </test-method> <!-- Validate_Firstnames -->
+      </class> <!-- Validation.ValidateResponse -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

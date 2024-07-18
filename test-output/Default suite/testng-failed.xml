@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.REST.api.GetCookies">
+      <class name="Validation.ValidateResponse">
         <methods>
-          <include name="Get_Multiple_Cookies"/>
+          <include name="Validate_Firstnames"/>
         </methods>
-      </class> <!-- com.qa.REST.api.GetCookies -->
+      </class> <!-- Validation.ValidateResponse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
