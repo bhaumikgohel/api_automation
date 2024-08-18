@@ -49,17 +49,25 @@ public class ValidateResponse {
 		JSONObject jo = new JSONObject(res.asString());
 		
 		boolean status = false;
-		
+		// its fatch specific data from JSON Response Object 
 		for(int i =0; i<jo.getJSONArray("data").length();i++) {
-			String user = jo.getJSONArray("data").getJSONObject(i).toString();
+			//Get the JSON ARRAY, Get The value from i. Get The First name from JSON OBJ and Convert to String
+			String user = jo.getJSONArray("data").getJSONObject(i).get("first_name").toString();
+			
+			//Print the data
 			System.out.println(user);
 			
-			if(user.equals(user)) {
+			
+			if(user.equals("George")) {
 				
 				status=true;
 				break;
 			}
 		}
+		
+		
+			Assert.assertEquals(status, true);
+		
 					
 	}
 

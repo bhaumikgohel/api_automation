@@ -2,12 +2,12 @@
 <testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-18T18:08:51 IST" name="Default suite" finished-at="2024-07-18T18:08:54 IST" duration-ms="2273">
+  <suite started-at="2024-07-18T18:14:43 IST" name="Default suite" finished-at="2024-07-18T18:14:45 IST" duration-ms="2272">
     <groups>
     </groups>
-    <test started-at="2024-07-18T18:08:51 IST" name="Default test" finished-at="2024-07-18T18:08:54 IST" duration-ms="2273">
+    <test started-at="2024-07-18T18:14:43 IST" name="Default test" finished-at="2024-07-18T18:14:45 IST" duration-ms="2272">
       <class name="Validation.ValidateResponse">
-        <test-method signature="Validate_Firstnames()[pri:3, instance:Validation.ValidateResponse@b62d79]" started-at="2024-07-18T18:08:51 IST" name="Validate_Firstnames" finished-at="2024-07-18T18:08:54 IST" duration-ms="2221" status="PASS">
+        <test-method signature="Validate_Firstnames()[pri:3, instance:Validation.ValidateResponse@b62d79]" started-at="2024-07-18T18:14:43 IST" name="Validate_Firstnames" finished-at="2024-07-18T18:14:45 IST" duration-ms="2206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Firstnames -->
