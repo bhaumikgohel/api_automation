@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Validation.ValidateResponse">
+      <class name="RestMethods.RestMethod">
         <methods>
-          <include name="Validate_Firstnames"/>
+          <include name="Userlist"/>
         </methods>
-      </class> <!-- Validation.ValidateResponse -->
+      </class> <!-- RestMethods.RestMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
